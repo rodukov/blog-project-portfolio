@@ -67,4 +67,9 @@ export default { name: 'about_items' }
     font-family: 'Inria Serif';
     font-size: 25px;
 }
+@media (max-width: 975px ) {
+    .about_item { display: inline-block; }
+    .text-container { margin-left: 0; text-align: center; margin: 10px;  }
+    .logo_item { padding: 0; width: 128px; height: 128px; margin: 0px auto; }
+}
 </style>

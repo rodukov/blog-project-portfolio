@@ -62,7 +62,7 @@ export default { name: 'socials' }
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.178);
-    background-color: #0000003f;
+    background: linear-gradient(180deg, rgba(0, 225, 255, 0.1), rgba(0, 34, 128, 0.1));
     backdrop-filter: blur(50px);
     transition: .1s;
 }
@@ -86,6 +86,7 @@ export default { name: 'socials' }
     padding: 15px;
     padding-left: 55px;
     padding-right: 55px;
+    display: inline-block;
     font-size: 25px;
     font-family: 'Inter';
     text-decoration: none;
@@ -99,10 +100,21 @@ export default { name: 'socials' }
     outline: 5px solid rgba(22, 172, 199, 0.11);
 }
 .button-container {
-    margin: 50px auto;
+    margin: 30px auto;
     font-size: 16px;
-    width: 180px;
+    width: 160px;
     
 }
 
+
+@media (max-width: 1310px) {
+   .social { display: grid; grid-template-columns: 50% 50%; }
+}
+@media (max-width: 950px ) {
+    .social { display: inline-block; }
+   .social-container { margin: 5px; padding: 0; }
+   .button-container { margin-top: 0; }
+   .name {padding-top: 25px;}
+   .button { margin-top: 20px; margin-bottom: 20px; }
+}
 </style>

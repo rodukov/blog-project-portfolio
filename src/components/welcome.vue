@@ -68,4 +68,18 @@ export default { name: 'welcome' }
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+@media (max-width: 900px) {
+  .welcome-container {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    backdrop-filter: blur(5px);
+    border: none;
+    padding: 0;
+  }
+  .main-welcome { padding: 0; font-size: 55px }
+  .welcome { padding: 0px; }
+  .description-welcome-part { font-size: 16px }
+}
 </style>
