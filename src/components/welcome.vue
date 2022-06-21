@@ -41,7 +41,12 @@ export default { name: 'welcome' }
     background-attachment: fixed;
     border-radius: 9.5px;
     border: 1px solid white;
+    transition: .4s;
 }
+.welcome-container:hover {
+  background-color: #b19e5f11;
+}
+
 .main-welcome {
     font-family: 'Inria Serif';
     font-size: 65px;
