@@ -5,38 +5,38 @@
         <div><p class="description default">My main social network.
             All Articles stored here. Everything is free to read.
             You can visit profile by button bottom.</p></div>
-        <p class="default center button-container"><a class="button" href="https://medium.com/">Visit</a></p>
+        <p class="default button-container"><a class="button" href="https://medium.com/">Visit</a></p>
     </div>
     <div class="social-container">
         <div><p class="name default center">YouTube</p></div>
         <div><p class="description default">I shoot a lot of
             educational videos on the subject of investing.
             I'm waiting for you on my channe.</p></div>
-        <p class="default center button-container"><a class="button" href="https://medium.com/">Visit</a></p>
+        <p class="default button-container"><a class="button" href="https://medium.com/">Visit</a></p>
     </div>
     <div class="social-container">
         <div><p class="name default center">Telegram</p></div>
         <div><p class="description default">Here I make exclusive posts and
             communicate with the audience. Sometimes I do giveaways.</p></div>
-        <p class="default center button-container"><a class="button" href="https://medium.com/">Visit</a></p>
+        <p class="default button-container"><a class="button" href="https://medium.com/">Visit</a></p>
     </div>
     <div class="social-container">
         <div><p class="name default center">Discord Server</p></div>
         <div><p class="description default">There is also a place for
             communication only for a wider number of people.</p></div>
-        <p class="default center button-container"><a class="button" href="https://medium.com/">Visit</a></p>
+        <p class="default button-container"><a class="button" href="https://medium.com/">Visit</a></p>
     </div>
     <div class="social-container">
         <div><p class="name default center">Twitter</p></div>
         <div><p class="description default">Here I write what is happening
             in my life and my opinion about the news</p></div>
-        <p class="default center button-container"><a class="button" href="https://medium.com/">Visit</a></p>
+        <p class="default button-container"><a class="button" href="https://medium.com/">Visit</a></p>
     </div>
     <div class="social-container">
         <div><p class="name default center">Github</p></div>
         <div><p class="description default">You can find my automated
             trading scripts here. </p></div>
-        <p class="default center button-container"><a class="button" href="https://medium.com/">Visit</a></p>
+        <p class="default button-container"><a class="button" href="https://medium.com/">Visit</a></p>
     </div>
 </div>
 </template>
@@ -93,13 +93,15 @@ export default { name: 'socials' }
     background: linear-gradient(90deg, #00B2FF, #26DAC4);
     border-radius: 25px;
     transition: 0.5s;
+
 }
 .button:hover {
     outline: 5px solid rgba(22, 172, 199, 0.11);
 }
 .button-container {
-    margin: 25px;
-    margin-top: 40px;
+    margin: 50px auto;
+    font-size: 16px;
+    width: 180px;
     
 }
 
